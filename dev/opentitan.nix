@@ -94,7 +94,6 @@ in
           # Provide static libraries needed for statically-linking verilator models and OTT
           zlib.static
           glibc.static
-          (openssl.override {static = true;})
 
           # Deps for building sc_hsm
           autoconf
